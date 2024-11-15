@@ -1,0 +1,8 @@
+{
+	"component_name": "hoverCard",
+	"trigger": {
+		"variant": "link",
+		"text": "@nextjs"
+	},
+	"content": null
+}

@@ -1,0 +1,5 @@
+{
+	"component_name": "popover",
+	"trigger": "Open",
+	"content": "Place content for the popover here."
+}

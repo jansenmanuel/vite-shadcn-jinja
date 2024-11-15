@@ -1,0 +1,6 @@
+{
+	"component_name": "avatar",
+	"src": "https://github.com/shadcn.png",
+	"alt": "@shadcn",
+	"fallback": "CN"
+}

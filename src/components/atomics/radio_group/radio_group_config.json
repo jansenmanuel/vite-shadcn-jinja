@@ -1,0 +1,18 @@
+{
+	"component_name": "radioGroup",
+	"defaultValue": "option-one",
+	"items": [
+		{
+			"value": "option-one",
+			"id": "option-one",
+			"htmlFor": "option-one",
+			"label": "Option One"
+		},
+		{
+			"value": "option-two",
+			"id": "option-two",
+			"htmlFor": "option-two",
+			"label": "Option Two"
+		}
+	]
+}

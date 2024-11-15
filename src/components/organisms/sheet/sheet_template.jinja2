@@ -1,0 +1,27 @@
+import {
+	Sheet,
+	SheetContent,
+	SheetDescription,
+	SheetHeader,
+	SheetTitle,
+	SheetTrigger,
+} from "@/components/ui/sheet";
+
+export function SheetComponent() {
+	return (
+		<Sheet>
+			<SheetTrigger>{{ trigger }}</SheetTrigger>
+			<SheetContent>
+				<SheetHeader>
+					<SheetTitle>{{ content.header.title }}</SheetTitle>
+					<SheetDescription>
+						{{ content.header.description }}
+					</SheetDescription>
+				</SheetHeader>
+                {% if content.body %}
+                {{ content.body }}
+                {% endif %}
+			</SheetContent>
+		</Sheet>
+	);
+}

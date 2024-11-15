@@ -1,0 +1,36 @@
+{
+	"component_name": "table",
+	"caption": "A list of your recent invoices.",
+	"header": {
+		"rows": [
+			{
+				"data": "Invoice"
+			},
+			{
+				"data": "Status"
+			},
+			{
+				"data": "Method"
+			},
+			{
+				"data": "Amount"
+			}
+		]
+	},
+	"body": {
+		"rows": [
+			{
+				"data": "INV001"
+			},
+			{
+				"data": "Paid"
+			},
+			{
+				"data": "Credit Card"
+			},
+			{
+				"data": "$250.00"
+			}
+		]
+	}
+}

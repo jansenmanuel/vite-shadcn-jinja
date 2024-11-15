@@ -1,0 +1,29 @@
+import {
+	NavigationMenu,
+	NavigationMenuContent,
+	NavigationMenuItem,
+	NavigationMenuLink,
+	NavigationMenuList,
+	NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
+
+export function NavigationMenuComponent() {
+	return (
+		<NavigationMenu>
+			<NavigationMenuList>
+                {% for item in items %}
+				<NavigationMenuItem>
+					<NavigationMenuTrigger>{{ item.trigger }}</NavigationMenuTrigger>
+					<NavigationMenuContent>
+                        {% for content in {{ item.content }} %}
+						<div className="w-[400px] gap-3 p-4">
+							<NavigationMenuLink href="{{ content.href }}">{{ content.text }}</NavigationMenuLink>
+						</div>
+                        {% endfor %}
+					</NavigationMenuContent>
+				</NavigationMenuItem>
+                {% endfor %}
+			</NavigationMenuList>
+		</NavigationMenu>
+	);
+}

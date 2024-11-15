@@ -1,0 +1,11 @@
+{
+	"component_name": "dropdownMenu",
+	"trigger": {
+		"variant": "outline",
+		"text": "Open"
+	},
+	"content": {
+		"label": "My Account",
+		"items": ["Profile", "Billing", "Team", "Subscription"]
+	}
+}

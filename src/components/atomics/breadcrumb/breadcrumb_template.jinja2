@@ -1,0 +1,33 @@
+import { Slash } from "lucide-react";
+
+import {
+	Breadcrumb,
+	BreadcrumbItem,
+	BreadcrumbLink,
+	BreadcrumbList,
+	BreadcrumbPage,
+	BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+
+export function BreadcrumbComponent() {
+	return (
+		<Breadcrumb>
+			<BreadcrumbList>
+                {% for item in list %}
+                {% if item.href %} 
+                <BreadcrumbItem>
+                    <BreadcrumbLink href="{{ item.href }}">{{ item.text }}</BreadcrumbLink>
+                </BreadcrumbItem>
+                <BreadcrumbSeparator>
+                    <Slash />
+                </BreadcrumbSeparator>
+                {% else %}
+                <BreadcrumbItem>
+                    <BreadcrumbPage>{{ item.text }}</BreadcrumbPage>
+                </BreadcrumbItem>
+                {% endif %}
+                {% endfor %}
+			</BreadcrumbList>
+		</Breadcrumb>
+	);
+}

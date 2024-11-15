@@ -1,0 +1,33 @@
+import {
+	Menubar,
+	MenubarContent,
+	MenubarItem,
+	MenubarMenu,
+	MenubarSeparator,
+	MenubarShortcut,
+	MenubarTrigger,
+} from "@/components/ui/menubar";
+
+export function MenubarComponent() {
+	return (
+		<Menubar>
+			<MenubarMenu>
+				<MenubarTrigger>{{ trigger }}</MenubarTrigger>
+				<MenubarContent>
+                    {% if content %}
+                    {{ content }}
+                    {% else %}
+					<MenubarItem>
+						New Tab <MenubarShortcut>⌘T</MenubarShortcut>
+					</MenubarItem>
+					<MenubarItem>New Window</MenubarItem>
+					<MenubarSeparator />
+					<MenubarItem>Share</MenubarItem>
+					<MenubarSeparator />
+					<MenubarItem>Print</MenubarItem>
+                    {% endif %}
+				</MenubarContent>
+			</MenubarMenu>
+		</Menubar>
+	);
+}

@@ -1,0 +1,12 @@
+{
+	"component_name": "card",
+	"header": {
+		"title": "Create project",
+		"description": "Deploy your new project in one-click."
+	},
+	"content": null,
+	"footer": {
+		"cancel": "Cancel",
+		"action": "Deploy"
+	}
+}

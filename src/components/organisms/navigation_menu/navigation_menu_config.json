@@ -1,0 +1,56 @@
+{
+	"component_name": "navigationMenu",
+	"items": [
+		{
+			"trigger": "Item One",
+			"content": [
+				{
+					"href": "/link1",
+					"text": "Link1"
+				},
+				{
+					"href": "/link2",
+					"text": "Link1"
+				},
+				{
+					"href": "/link2",
+					"text": "Link1"
+				}
+			]
+		},
+		{
+			"trigger": "Item Two",
+			"content": [
+				{
+					"href": "/link1",
+					"text": "Link1"
+				},
+				{
+					"href": "/link2",
+					"text": "Link1"
+				},
+				{
+					"href": "/link2",
+					"text": "Link1"
+				}
+			]
+		},
+		{
+			"trigger": "Item Three",
+			"content": [
+				{
+					"href": "/link1",
+					"text": "Link1"
+				},
+				{
+					"href": "/link2",
+					"text": "Link1"
+				},
+				{
+					"href": "/link2",
+					"text": "Link1"
+				}
+			]
+		}
+	]
+}

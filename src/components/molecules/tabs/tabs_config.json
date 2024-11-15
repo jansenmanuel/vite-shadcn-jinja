@@ -1,0 +1,26 @@
+{
+	"component_name": "tabs",
+	"defaultValue": "account",
+	"list": {
+		"trigger": [
+			{
+				"value": "account",
+				"label": "Account"
+			},
+			{
+				"value": "password",
+				"label": "Password"
+			}
+		]
+	},
+	"content": [
+		{
+			"value": "account",
+			"label": "Make changes to your account here."
+		},
+		{
+			"value": "password",
+			"label": "Change your password here."
+		}
+	]
+}

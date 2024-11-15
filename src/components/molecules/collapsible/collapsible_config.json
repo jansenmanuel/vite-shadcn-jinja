@@ -1,0 +1,10 @@
+{
+	"component_name": "collapsible",
+	"title": "@peduarte starred 3 repositories",
+	"trigger": {
+		"variant": "ghost",
+		"text": "Toggle"
+	},
+	"display": "@radix-ui/primitives",
+	"items": ["@radix-ui/colors", "@radix-ui/react"]
+}

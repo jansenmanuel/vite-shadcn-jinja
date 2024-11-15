@@ -1,0 +1,31 @@
+import {
+	Table,
+	TableBody,
+	TableCaption,
+	TableCell,
+	TableHead,
+	TableHeader,
+	TableRow,
+} from "@/components/ui/table";
+
+export function TableComponent() {
+	return (
+		<Table>
+			<TableCaption>{{ caption }}</TableCaption>
+			<TableHeader>
+				<TableRow>
+                    {% for row in header.rows %}
+					<TableHead>{{ row.data }}</TableHead>
+                    {% endfor %}
+				</TableRow>
+			</TableHeader>
+			<TableBody>
+				<TableRow>
+                    {% for row in body.rows %}
+					<TableCell>{{ row.data }}</TableCell>
+                    {% endfor %}
+				</TableRow>
+			</TableBody>
+		</Table>
+	);
+}

@@ -1,0 +1,6 @@
+{
+	"component_name": "checkbox",
+	"id": "terms",
+	"htmlFor": "terms",
+	"label": "Accept terms and conditions"
+}

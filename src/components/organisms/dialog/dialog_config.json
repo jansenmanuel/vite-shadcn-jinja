@@ -1,0 +1,17 @@
+{
+	"component_name": "dialog",
+	"trigger": {
+		"variant": "outline",
+		"text": "Edit Profile"
+	},
+	"content": {
+		"header": {
+			"title": "Edit profile",
+			"description": "Make changes to your profile here. Click save when you're done."
+		},
+		"body": null,
+		"footer": {
+			"action": "Save changes"
+		}
+	}
+}

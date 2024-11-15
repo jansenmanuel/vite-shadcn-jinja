@@ -1,0 +1,8 @@
+{%- set allowed_orientations = ["vertical", "horizontal"] -%}
+{%- set orientation = orientation if orientation in allowed_orientations else "vertical" -%}
+
+import { Separator } from "@/components/ui/separator";
+
+export function SeparatorComponent() {
+	return <Separator orientation="{{ orientation }}" />;
+}

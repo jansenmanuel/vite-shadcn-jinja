@@ -1,0 +1,21 @@
+{
+	"component_name": "pagination",
+	"previous": true,
+	"items": [
+		{
+			"href": "#",
+			"page": "1"
+		},
+		{
+			"href": "#",
+			"page": "2",
+			"isActive": true
+		},
+		{
+			"href": "#",
+			"page": "3"
+		}
+	],
+	"ellipsis": true,
+	"next": true
+}

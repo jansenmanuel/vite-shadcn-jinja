@@ -1,0 +1,5 @@
+{
+	"component_name": "tooltip",
+	"trigger": "Hover",
+	"content": "Add to library"
+}

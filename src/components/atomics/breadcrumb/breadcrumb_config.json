@@ -1,0 +1,16 @@
+{
+	"component_name": "breadcrumb",
+	"list": [
+		{
+			"href": "/",
+			"text": "Home"
+		},
+		{
+			"href": "/components",
+			"text": "Components"
+		},
+		{
+			"text": "Breadcrumb"
+		}
+	]
+}

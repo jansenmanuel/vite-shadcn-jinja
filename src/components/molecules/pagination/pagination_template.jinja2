@@ -1,0 +1,40 @@
+import {
+	Pagination,
+	PaginationContent,
+	PaginationEllipsis,
+	PaginationItem,
+	PaginationLink,
+	PaginationNext,
+	PaginationPrevious,
+} from "@/components/ui/pagination";
+
+export function PaginationComponent() {
+	return (
+		<Pagination>
+			<PaginationContent>
+                {% if previous %}
+				<PaginationItem>
+					<PaginationPrevious href="#" />
+				</PaginationItem>
+                {% endif %}
+                {% for item in items %}
+				<PaginationItem>
+					<PaginationLink href="{{ item.href }}"{% if item.isActive %} isActive{% endif %}>
+                        {{ item.page }}
+                    </PaginationLink>
+				</PaginationItem>
+                {% enfor %}
+                {% if ellipsis %}
+				<PaginationItem>
+					<PaginationEllipsis />
+				</PaginationItem>
+                {% endif %}
+                {% if next %}
+				<PaginationItem>
+					<PaginationNext href="#" />
+				</PaginationItem>
+                {% endif %}
+			</PaginationContent>
+		</Pagination>
+	);
+}

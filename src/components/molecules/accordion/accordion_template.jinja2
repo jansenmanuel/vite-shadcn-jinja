@@ -1,0 +1,21 @@
+import {
+	Accordion,
+	AccordionContent,
+	AccordionItem,
+	AccordionTrigger,
+} from "@/components/ui/accordion";
+
+export function AccordionComponent() {
+	return (
+		<Accordion type="{{ type }}" collapsible>
+            {% for item in items %}
+            <AccordionItem value="{{ item.value }}">
+                <AccordionTrigger>{{ item.trigger }}</AccordionTrigger>
+                <AccordionContent>
+                    {{ item.content }}
+                </AccordionContent>
+            </AccordionItem>
+            {% endfor %}
+        </Accordion>
+	);
+}
