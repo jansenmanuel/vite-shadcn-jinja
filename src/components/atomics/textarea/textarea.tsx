@@ -1,5 +1,7 @@
 import { Textarea } from "@/components/ui/textarea";
 
 export function TextareaComponent() {
-	return <Textarea placeholder="Type your message here." />;
+	return (
+		<Textarea id="textarea-message" placeholder="Type your message here." />
+	);
 }

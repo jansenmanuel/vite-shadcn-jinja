@@ -1,4 +1,7 @@
 {
 	"component_name": "inputOTP",
-	"maxLength": 6
+	"inputOTP": {
+		"id": "input-otp",
+		"maxLength": 6
+	}
 }

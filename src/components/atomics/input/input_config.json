@@ -1,5 +1,8 @@
 {
 	"component_name": "input",
-	"type": "email",
-	"placeholder": "Email"
+	"input": {
+		"id": "input-email",
+		"type": "email",
+		"placeholder": "Email"
+	}
 }

@@ -1,5 +1,17 @@
 {
 	"component_name": "alert",
-	"title": "Heads up!",
-	"description": "You can add components to your app using the cli."
+	"alert": {
+		"children": {
+			"icon": {
+				"name": "Terminal",
+				"className": "h-4 w-4"
+			},
+			"title": {
+				"children": "Heads up!"
+			},
+			"description": {
+				"children": "You can add components to your app using the cli."
+			}
+		}
+	}
 }

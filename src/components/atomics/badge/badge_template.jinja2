@@ -1,8 +1,8 @@
 {%- set allowed_variants = ["default", "destructive", "outline", "secondary"] -%}
-{%- set variant = variant if variant in allowed_variants else "default" -%}
+{%- set variant = badge.variant if badge.variant in allowed_variants else "default" -%}
 
 import { Badge } from "@/components/ui/badge";
 
 export function BadgeComponent() {
-	return <Badge{% if variant != 'default' %} variant="{{ variant }}"{% endif %}>Badge</Badge>;
+	return <Badge{% if variant != 'default' %} variant="{{ variant }}"{% endif %}>{{ badge.text }}</Badge>;
 }

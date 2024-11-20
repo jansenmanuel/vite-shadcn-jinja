@@ -1,4 +1,6 @@
 {
 	"component_name": "separator",
-	"orientation": "vertical"
+	"separator": {
+		"orientation": "vertical"
+	}
 }

@@ -1,10 +1,10 @@
 {%- set allowed_variants = ["default", "destructive", "outline", "secondary", "ghost", "link"] -%}
-{%- set variant = variant if variant in allowed_variants else "default" -%}
+{%- set variant = button.variant if button.variant in allowed_variants else "default" -%}
 {%- set allowed_sizes = ["default", "sm", "lg", "icon"] -%}
-{%- set size = size if size in allowed_sizes else "default" -%}
+{%- set size = button.size if button.size in allowed_sizes else "default" -%}
 
 import { Button } from "@/components/ui/button";
 
 export function ButtonComponent() {
-	return <Button{% if variant != 'default' %} variant="{{ variant }}"{% endif %}{% if size != 'default' %} size="{{ size }}"{% endif %}>{{ text }}</Button>;
+	return <Button id={{ button.id }}{% if variant != 'default' %} variant="{{ variant }}"{% endif %}{% if size != 'default' %} size="{{ size }}"{% endif %}>{{ button.children }}</Button>;
 }

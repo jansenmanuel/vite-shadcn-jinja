@@ -1,5 +1,7 @@
 import { Textarea } from "@/components/ui/textarea";
 
 export function TextareaComponent() {
-	return <Textarea placeholder="{{ placeholder }}" />;
+	return (
+		<Textarea id="{{ textarea.id }}" placeholder="{{ textarea.placeholder }}" />
+	);
 }

@@ -1,6 +1,8 @@
 {
 	"component_name": "slider",
-	"defaulValue": 33,
-	"max": 100,
-	"step": 1
+	"slider": {
+		"defaulValue": 33,
+		"max": 100,
+		"step": 1
+	}
 }

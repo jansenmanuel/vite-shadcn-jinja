@@ -1,14 +1,14 @@
-import { Terminal } from "lucide-react";
+import { {{ alert.children.icon.name }} } from "lucide-react";
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 export function AlertComponent() {
 	return (
 		<Alert>
-			<Terminal className="h-4 w-4" />
-			<AlertTitle>{{ title }}</AlertTitle>
+			<{{ alert.children.icon.name }} className="{{ alert.children.icon.className }}" />
+			<AlertTitle>{{ alert.children.title.children }}</AlertTitle>
 			<AlertDescription>
-				{{ description }}
+				{{ alert.children.description.children }}
 			</AlertDescription>
 		</Alert>
 	);

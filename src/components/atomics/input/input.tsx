@@ -1,5 +1,5 @@
 import { Input } from "@/components/ui/input";
 
 export function InputComponent() {
-	return <Input type="email" placeholder="Email" />;
+	return <Input id="input-email" type="email" placeholder="Email" />;
 }

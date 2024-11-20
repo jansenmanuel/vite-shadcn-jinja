@@ -3,8 +3,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export function AvatarComponent() {
 	return (
 		<Avatar>
-			<AvatarImage src="{{ src }}" alt="{{ alt }}" />
-			<AvatarFallback>{{ fallback }}</AvatarFallback>
+			<AvatarImage src="{{ avatar.children.image.src }}" alt="{{ avatar.children.image.alt }}" />
+			<AvatarFallback>{{ avatar.children.fallback.children }}</AvatarFallback>
 		</Avatar>
 	);
 }

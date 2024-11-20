@@ -8,7 +8,11 @@ import {
 
 export function InputOTPComponent() {
 	return (
-		<InputOTP maxLength={6} pattern={REGEXP_ONLY_DIGITS_AND_CHARS}>
+		<InputOTP
+			id="input-otp"
+			maxLength={6}
+			pattern={REGEXP_ONLY_DIGITS_AND_CHARS}
+		>
 			<InputOTPGroup>
 				<InputOTPSlot index={0} />
 				<InputOTPSlot index={1} />
