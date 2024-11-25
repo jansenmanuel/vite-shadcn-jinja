@@ -1,0 +1,6 @@
+{
+	"component_name": "textareaLabel",
+	"label": "Your message",
+	"placeholder": "Type your message here.",
+	"id": "message"
+}

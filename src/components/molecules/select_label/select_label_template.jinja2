@@ -1,0 +1,26 @@
+import { Label } from "@/components/ui/label";
+import {
+	Select,
+	SelectContent,
+	SelectItem,
+	SelectTrigger,
+	SelectValue,
+} from "@/components/ui/select";
+
+export function SelectLabelComponent() {
+	return (
+		<div className="grid w-full max-w-sm items-center gap-1.5">
+			<Label htmlFor="{{ id }}">{{ label }}</Label>
+			<Select>
+				<SelectTrigger id="{{ id }}">
+					<SelectValue placeholder="{{ trigger.placeholder }}" />
+				</SelectTrigger>
+				<SelectContent>
+                    {% for item in items %}
+                    <SelectItem value="{{ item.value }}">{{ item.label }}</SelectItem>
+                    {% endfor %}
+				</SelectContent>
+			</Select>
+		</div>
+	);
+}

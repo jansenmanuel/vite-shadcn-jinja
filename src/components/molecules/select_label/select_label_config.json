@@ -1,0 +1,22 @@
+{
+	"component_name": "selectLabel",
+	"label": "Select Theme",
+	"id": "theme",
+	"trigger": {
+		"placeholder": "Theme"
+	},
+	"items": [
+		{
+			"value": "light",
+			"label": "Light"
+		},
+		{
+			"value": "dark",
+			"label": "Dark"
+		},
+		{
+			"value": "system",
+			"label": "System"
+		}
+	]
+}
