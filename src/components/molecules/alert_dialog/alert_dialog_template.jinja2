@@ -9,14 +9,11 @@ import {
 	AlertDialogTitle,
 	AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { Button } from "@/components/ui/button";
 
 export function AlertDialogComponent() {
 	return (
 		<AlertDialog>
-			<AlertDialogTrigger asChild>
-				<Button variant="{{ trigger.variant }}">{{ trigger.text }}</Button>
-			</AlertDialogTrigger>
+			<AlertDialogTrigger>{{ trigger }}</AlertDialogTrigger>
 			<AlertDialogContent>
 				<AlertDialogHeader>
 					<AlertDialogTitle>{{ content.header.title }}</AlertDialogTitle>

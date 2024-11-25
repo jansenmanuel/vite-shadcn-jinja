@@ -5,8 +5,5 @@
 		"description": "Deploy your new project in one-click."
 	},
 	"content": null,
-	"footer": {
-		"cancel": "Cancel",
-		"action": "Deploy"
-	}
+	"footer": null
 }

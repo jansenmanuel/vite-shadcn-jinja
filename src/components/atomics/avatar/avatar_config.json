@@ -1,14 +1,8 @@
 {
 	"component_name": "avatar",
-	"avatar": {
-		"children": {
-			"image": {
-				"src": "https://github.com/shadcn.png",
-				"alt": "@shadcn"
-			},
-			"fallback": {
-				"children": "CN"
-			}
-		}
-	}
+	"image": {
+		"src": "https://github.com/shadcn.png",
+		"alt": "@shadcn"
+	},
+	"fallback": "CN"
 }

@@ -1,3 +1,6 @@
+{%- set allowed_modes = ["default", "multiple", "range", "single"] -%}
+{%- set mode = mode if mode in allowed_modes else "single" -%}
+
 "use client";
 
 import * as React from "react";
@@ -9,7 +12,7 @@ export function CalendarComponent() {
 
 	return (
 		<Calendar
-			mode="single"
+			mode="{{ mode }}"
 			selected={date}
 			onSelect={setDate}
 			className="rounded-md border shadow"

@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -11,16 +10,15 @@ import {
 export function DropdownMenuComponent() {
 	return (
 		<DropdownMenu>
-			<DropdownMenuTrigger asChild>
-				<Button variant="{{ trigger.variant }}">{{ trigger.text }}</Button>
-			</DropdownMenuTrigger>
+			<DropdownMenuTrigger>{{ trigger }}</DropdownMenuTrigger>
 			<DropdownMenuContent>
-				<DropdownMenuLabel>{{ content.label }}</DropdownMenuLabel>
+				<DropdownMenuLabel>{{ label }}</DropdownMenuLabel>
 				<DropdownMenuSeparator />
-                {% for item in content.items %}
+				{% for item in content.items %}
 				<DropdownMenuItem>{{ item }}</DropdownMenuItem>
                 {% endfor %}
 			</DropdownMenuContent>
 		</DropdownMenu>
-	);
+	);                
+
 }

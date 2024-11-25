@@ -1,6 +1,4 @@
 {
 	"component_name": "progress",
-	"progress": {
-		"value": 33
-	}
+	"value": 33
 }

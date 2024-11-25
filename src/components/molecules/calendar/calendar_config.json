@@ -1,3 +1,4 @@
 {
-	"component_name": "calendar"
+	"component_name": "calendar",
+	"mode": "single"
 }

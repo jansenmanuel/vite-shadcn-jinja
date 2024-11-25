@@ -1,7 +1,5 @@
 {
 	"component_name": "textarea",
-	"textarea": {
-		"id": "textarea-message",
-		"placeholder": "Type your message here."
-	}
+	"id": "textarea-message",
+	"placeholder": "Type your message here."
 }

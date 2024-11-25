@@ -1,9 +1,6 @@
 {
 	"component_name": "alertDialog",
-	"trigger": {
-		"variant": "outline",
-		"text": "Show Dialog"
-	},
+	"trigger": "Open",
 	"content": {
 		"header": {
 			"title": "Are you absolutely sure?",

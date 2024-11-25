@@ -1,20 +1,16 @@
 {
 	"component_name": "breadcrumb",
-	"breadcrumb": {
-		"children": {
-			"list": [
-				{
-					"href": "/",
-					"text": "Home"
-				},
-				{
-					"href": "/components",
-					"text": "Components"
-				},
-				{
-					"text": "Breadcrumb"
-				}
-			]
+	"list": [
+		{
+			"href": "/",
+			"text": "Home"
+		},
+		{
+			"href": "/components",
+			"text": "Components"
+		},
+		{
+			"text": "Breadcrumb"
 		}
-	}
+	]
 }

@@ -13,7 +13,7 @@ export function BreadcrumbComponent() {
 	return (
 		<Breadcrumb>
 			<BreadcrumbList>
-                {% for item in breadcrumb.children.list %}
+                {% for item in list %}
                 {% if item.href %} 
                 <BreadcrumbItem>
                     <BreadcrumbLink href="{{ item.href }}">{{ item.text }}</BreadcrumbLink>

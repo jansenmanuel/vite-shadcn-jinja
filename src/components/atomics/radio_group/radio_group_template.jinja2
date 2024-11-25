@@ -3,8 +3,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 export function RadioGroupComponent() {
 	return (
-		<RadioGroup defaultValue="{{ radioGroup.defaultValue }}">
-            {% for item in radioGroup.children %}
+		<RadioGroup defaultValue="{{ defaultValue }}">
+            {% for item in list %}
 			<div className="flex items-center space-x-2">
 				<RadioGroupItem value="{{ item.value }}" id="{{ item.id }}" />
 				<Label htmlFor="{{ item.htmlFor }}">{{ item.label }}</Label>

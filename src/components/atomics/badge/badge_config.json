@@ -1,7 +1,5 @@
 {
 	"component_name": "badge",
-	"badge": {
-		"variant": "outline",
-		"text": "Badge"
-	}
+	"variant": "outline",
+	"text": "Badge"
 }

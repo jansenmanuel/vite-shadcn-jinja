@@ -1,5 +1,6 @@
 import * as React from "react";
-import { AlertComponent } from "./atomics/alert/alert";
+// import Page from "@/app/dashboard/page";
+import Framework from "./layout/Framework";
 
 export interface IAppProps {}
 
@@ -14,11 +15,15 @@ export default class App extends React.Component<IAppProps, IAppState> {
 
 	public render() {
 		return (
-			<div className="w-full h-full flex justify-center items-center bg-gray-100">
-				<div className="w-1/2">
-					<AlertComponent />
-				</div>
-			</div>
+			<>
+				{/* <Page /> */}
+				<Framework />
+			</>
+			// <div className="w-full h-full flex justify-center items-center bg-gray-100">
+			// 	<div className="w-1/2">
+			// 		<AlertComponent />
+			// 	</div>
+			// </div>
 		);
 	}
 }

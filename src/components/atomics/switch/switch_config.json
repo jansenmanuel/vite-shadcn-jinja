@@ -1,6 +1,4 @@
 {
 	"component_name": "switch",
-	"switch": {
-		"id": "switch-airplane-mode"
-	}
+	"id": "switch-airplane-mode"
 }

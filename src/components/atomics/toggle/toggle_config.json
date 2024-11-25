@@ -1,6 +1,4 @@
 {
 	"component_name": "toggle",
-	"toggle": {
-		"children": "Toggle"
-	}
+	"content": "Toggle"
 }

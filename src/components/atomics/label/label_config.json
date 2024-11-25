@@ -1,7 +1,5 @@
 {
 	"component_name": "label",
-	"label": {
-		"htmlFor": "input-email",
-		"children": "Your email address"
-	}
+	"htmlFor": "input-email",
+	"text": "Your email address"
 }

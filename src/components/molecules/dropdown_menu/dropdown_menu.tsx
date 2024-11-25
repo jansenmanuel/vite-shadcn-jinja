@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -11,9 +10,7 @@ import {
 export function DropdownMenuComponent() {
 	return (
 		<DropdownMenu>
-			<DropdownMenuTrigger asChild>
-				<Button variant="outline">Open</Button>
-			</DropdownMenuTrigger>
+			<DropdownMenuTrigger>Open</DropdownMenuTrigger>
 			<DropdownMenuContent>
 				<DropdownMenuLabel>My Account</DropdownMenuLabel>
 				<DropdownMenuSeparator />

@@ -1,3 +1,6 @@
+{%- set allowed_types = ["multiple", "single"] -%}
+{%- set type = type if type in allowed_types else "single" -%}
+
 import {
 	Accordion,
 	AccordionContent,

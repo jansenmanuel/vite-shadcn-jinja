@@ -1,6 +1,4 @@
 {
 	"component_name": "checkbox",
-	"checkbox": {
-		"id": "terms"
-	}
+	"id": "terms"
 }
